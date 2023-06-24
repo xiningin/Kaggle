@@ -4,8 +4,8 @@
 ### 1.Natural Language Processing with Disaster Tweets
 &ensp;&ensp;&ensp;&ensp;二分类预测tweets是否有关真实灾难,为Kaggle自然语言处理的一个Getting Started Prediction Competition。[Natrural Language Processing with Disaster Tweets](https://www.kaggle.com/competitions/nlp-getting-started)
 
-&ensp;&ensp;&ensp;&ensp;在问题的解决中对tweets数据做数据清洗，特征提取后利用prompt拼接所有特征信息，后续使用huggingface的Bert
-预训练模型，并在最后添加一层全连接层作为分类头，达到分类预测的目的。
+&ensp;&ensp;&ensp;&ensp;在问题的解决中对tweets数据做数据清洗，特征提取后利用prompt拼接所有特征信息，后续使用huggingface的roberta-base模型
+预训练模型，使用封装好的AutoModelForSequenceClassification为最后添加全连接层作为分类头，达到分类预测的目的。
 ### 2.Google AI4Code – Understand Code in Python Notebooks
 &ensp;&ensp;&ensp;&ensp;对于jupyter notebook的json文件中code cell顺序为markdown cell排序。[Google AI4Code – Understand Code in Python Notebooks](https://www.kaggle.com/competitions/AI4Code)
 
